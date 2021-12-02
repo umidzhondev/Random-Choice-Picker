@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+    background-color: #222 !important;
+}
+.box{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.box__main{
+    text-align: center;
+    width: 50%;
+}
+.box__title{
+    font-size: 2.2rem;
+    margin: 30px 0;
+    width: 75%
+}
+.input{
+    padding: 20px 25px !important;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    border-radius: 16px !important;
+    width: 100%;
+    height: auto;
+    color: rgb(41, 35, 36);
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+    resize: none;
+}
+.box__main-items{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.box__main-item{
+    margin: 20px 10px;
+    background-color: #fff;
+    color: #222;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: all .4s ease-in-out;
+}
+.box__main-item.overlay{
+    background-color: crimson;
+    color: #fff;
+}
+.input{
+    min-height: 20vh !important;
+}
+
+@media (max-width: 992px){
+    .box__title{
+        font-size: 1.9rem;
+        width: 100%;
+    }
+    .box__main{
+        width: 60vw;
+    }
+}
+@media (max-width: 776px){
+    .container{
+        max-width: 95vw !important;
+    }
+    .box__title{
+        font-size: 1.6rem;
+    }
+    .box__main{
+        width: 75vw;
+    }
+    .input{
+        font-size: 1.6rem !important
+    }
+    .box__main-item{
+        font-size: 1.4rem !important;
+    }
+}
+@media(max-width: 576px){
+    .box{
+        height: auto;
+        margin-top: 50px;
+    }
+    .box__main-title{
+        font-size: 1.3rem !important;
+    }
+    .box__main{
+        width: 90vw !important;
+    }
+    .box__title{
+        font-size: 1.3rem !important;
+    }
+    .input{
+        font-size: 1.3rem !important
+    }
+    .box__main-item{
+        font-size: 1.2rem !important;
+        margin: 10px !important;
+    }
+}
+@media(max-width: 350px){
+    .box{
+        height: auto;
+        margin-top: 30px;
+    }
+    .box__main-title{
+        font-size: 1.2rem !important;
+    }
+    .box__main{
+        width: 90vw !important;
+    }
+    .box__title{
+        font-size: 1.2rem !important;
+    }
+    .input{
+        font-size: 1.2rem !important
+    }
+    .box__main-item{
+        font-size: 1.2rem !important;
+        margin: 10px !important;
+    }
+}
