@@ -21,22 +21,23 @@ body{
     width: 50%;
 }
 .box__title{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 30px 0;
     width: 75%
 }
 .input{
-    padding: 20px 25px !important;
+    padding: 12px 25px !important;
     font-size: 1.8rem !important;
-    font-weight: 600 !important;
-    border-radius: 16px !important;
+    font-weight: 500 !important;
+    border-radius: 7px !important;
     width: 100%;
     height: auto;
-    color: rgb(41, 35, 36);
+    color: rgb(36, 29, 30);
     outline: none;
     border: none;
     box-shadow: none !important;
     resize: none;
+    letter-spacing: 2px;
 }
 .box__main-items{
     display: flex;
@@ -47,7 +48,7 @@ body{
     margin: 20px 10px;
     background-color: #fff;
     color: #222;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 1.5rem;
     font-weight: 500;
     padding: 10px 15px;
@@ -56,6 +57,7 @@ body{
 .box__main-item.overlay{
     background-color: crimson;
     color: #fff;
+    box-shadow: 0 0 56px 7px #fff;
 }
 .input{
     min-height: 20vh !important;

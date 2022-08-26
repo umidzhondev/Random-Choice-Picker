@@ -16,7 +16,6 @@ function main() {
 }
 main()
 
-
 function createItem(value) {
     let items = value
         .split(",")
